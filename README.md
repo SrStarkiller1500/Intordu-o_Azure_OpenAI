@@ -1,5 +1,3 @@
-
-
 # Introdução ao Azure OpenAI 🤖
 
 Neste repositório, decidi montar um resumo dos conteúdos apresentados nos primeiros módulos do curso, pois não consegui o acesso grátis ao portal do Azure OpenAI.
@@ -23,7 +21,7 @@ Esses modelos são ideais para tarefas complexas como geração de código, reso
 
 O serviço é integrado à plataforma Azure, permitindo fácil implementação e escalabilidade. Você pode combinar o Azure OpenAI com outros serviços da Azure para criar soluções abrangentes e avançadas.
 
-### Exemplos de Uso e àreas que podemos usar a aplicação 
+### Exemplos de Uso e Áreas de Aplicação
 
 O Azure OpenAI pode ser aplicado em várias áreas, como:
 - **Automação de Atendimento ao Cliente**: Automatizar suporte ao cliente, resumir conversas e fornecer coaching em tempo real para agentes.
@@ -46,11 +44,10 @@ Os usuários podem acessar o serviço através de:
 
 
 
+
 ## Parâmetros de Modelos de Linguagem
 
 Aqui fica um breve resumo sobre os parâmetros de modelos de linguagem apresentados no início do curso do Azure OpenAI.
-
-
 
 ### Temperatura
 
@@ -100,3 +97,45 @@ Aqui fica um breve resumo sobre os parâmetros de modelos de linguagem apresenta
 **Funcionamento**: Inclui como as mensagens são enviadas, processadas e respondidas pelo modelo, garantindo uma interação fluida.
 
 **Uso Prático**: Essencial para criar uma experiência de usuário eficiente e intuitiva, permitindo que o modelo entenda e responda adequadamente às solicitações.
+
+
+
+
+## Playground do Azure OpenAI e as suas Funções
+
+O Playground do Azure OpenAI é uma ferramenta interativa que permite explorar e experimentar com os modelos de linguagem da OpenAI diretamente na plataforma Azure.
+
+### Interface Intuitiva
+
+O Playground oferece uma interface amigável onde você pode inserir prompts (entradas de texto) e ver as respostas geradas pelos modelos de linguagem em tempo real.
+
+### Seleção de Modelos
+
+Você pode escolher entre vários modelos de linguagem, como GPT-4, GPT-3.5-Turbo, Codex (para geração de código) e modelos de embeddings.
+
+### Configuração de Parâmetros
+
+- **Temperatura**: Controla a aleatoriedade das respostas.
+- **Top P**: Define a probabilidade cumulativa para a seleção de tokens.
+- **Tokens Máximos**: Limita o número de tokens na resposta.
+- **Penalidades**: Ajusta a repetição e o comprimento das respostas.
+
+### Entrada e Saída
+
+Insira um prompt (pergunta, comando ou sugestão de conteúdo) e o modelo gera uma resposta com base nele. Você pode editar e refinar os prompts para obter diferentes resultados.
+
+### Exemplos e Templates
+
+O Playground inclui uma variedade de exemplos e templates para ajudar a começar, como geração de e-mails, tradução de texto e explicação de consultas SQL.
+
+### Customização e Fine-Tuning
+
+Permite ajustar e personalizar os modelos para tarefas específicas, melhorando a precisão e relevância das respostas.
+
+### Análise das Respostas
+
+Você pode analisar as respostas geradas, fazer ajustes nos parâmetros e regenerar as respostas para obter resultados mais adequados.
+
+### Integração com Azure
+
+Fácil integração com outros serviços da Azure, permitindo a implementação de soluções de IA em escala.
